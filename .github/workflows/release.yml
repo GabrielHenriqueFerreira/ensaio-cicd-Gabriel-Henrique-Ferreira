@@ -20,5 +20,10 @@ jobs:
         run: vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+<<<<<<< HEAD
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }} 
           
+=======
+         
+         
+>>>>>>> 8627d3885efd712bc74880f4ba7a19c189bf45eb
